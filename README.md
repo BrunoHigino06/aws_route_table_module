@@ -10,8 +10,8 @@ route table : id of the created route table
 
 To use this kind of variable in the module it's necessary create a instance of the variable on de main.tf, for example:
 
-module "subnet" {
-  source = "git::https://github.com/BrunoHigino06/aws_route_table_module.git"
-
-  rt_names = ["Private", "Public"]
+module "subnet" {<br>
+  source = "git::https://github.com/BrunoHigino06/aws_route_table_module.git"<br>
+<br>
+  rt_names = ["Private", "Public"]<br>
 }
